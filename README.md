@@ -143,8 +143,8 @@ PF is used to bring packets filter and NAT features to our local environment. Ta
 ```sh
 ext_if="em0"
 
-tcp_services={ ssh, http, https, ntp, domain}
-udp_services={ ntp, domain }
+tcp_services="{ ssh, http, https, ntp, domain}"
+udp_services="{ ntp, domain }"
 ksm_service="1688"
 
 set block-policy return
